@@ -6,9 +6,9 @@ These Golang API bindings are for Jikan's REST API v3.
 
 Almost all of the Jikan's API can be accessed through these bindings except the API's metadata reference.
 
-To install: `go get github.com/darenliang/jikan-go`
+To install: `go get github.com/tritonmedia/jikan-go`
 
-To import: `import "github.com/darenliang/jikan-go"` and use as `jikan`
+To import: `import "github.com/tritonmedia/jikan-go"` and use as `jikan`
 
 Sample usage:
 
@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/darenliang/jikan-go"
+	"github.com/tritonmedia/jikan-go"
 )
 
 func main() {
